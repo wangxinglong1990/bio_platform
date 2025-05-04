@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bio_platform/static/css/main.99b3601e.css",
+    "main.js": "/bio_platform/static/js/main.2859b5e8.js",
+    "index.html": "/bio_platform/index.html",
+    "main.99b3601e.css.map": "/bio_platform/static/css/main.99b3601e.css.map",
+    "main.2859b5e8.js.map": "/bio_platform/static/js/main.2859b5e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99b3601e.css",
+    "static/js/main.2859b5e8.js"
+  ]
+}
