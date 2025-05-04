@@ -1,0 +1,179 @@
+{
+  "app": {
+    "title": "生物信息学平台",
+    "nav": {
+      "home": "首页",
+      "protein": "蛋白质功能",
+      "gene": "基因功能",
+      "training": "我的训练任务",
+      "about": "关于",
+      "faq": "常见问题",
+      "api": "API"
+    }
+  },
+  "home": {
+    "banner": {
+      "description": "利用先进的深度学习算法，为蛋白质和基因序列提供精准预测和专业训练服务，助力科研与工业应用",
+      "start": "开始使用",
+      "learnMore": "了解更多"
+    },
+    "advantages": {
+      "title": "平台优势",
+      "description": "先进算法与丰富数据的完美结合，为您提供精准可靠的生物信息学服务",
+      "accuracy": {
+        "title": "高精度预测",
+        "description": "基于大规模实验数据训练的深度学习模型，提供业界领先的预测精度"
+      },
+      "speed": {
+        "title": "快速响应",
+        "description": "优化的计算架构，秒级响应您的预测请求，无需漫长等待"
+      },
+      "customization": {
+        "title": "定制训练",
+        "description": "支持用户使用自有数据训练专属模型，满足特定研究领域需求"
+      }
+    },
+    "combined": {
+      "title": "预测与训练相结合",
+      "description": "我们打造了一个完整的生物信息学平台，不仅提供高精度的预测功能，还能帮助您训练定制化模型。",
+      "points": {
+        "predict": "直接使用我们训练好的模型进行预测",
+        "upload": "上传自己的数据训练专属模型",
+        "manage": "管理和追踪您的训练任务",
+        "download": "下载训练好的模型用于本地部署"
+      },
+      "button": "查看我的训练任务"
+    },
+    "cta": {
+      "title": "准备好开始使用了吗？",
+      "description": "探索我们全面的蛋白质和基因功能，助力您的科研和工业应用",
+      "button": "立即开始"
+    },
+    "protein": {
+      "title": "蛋白质功能",
+      "kcat": {
+        "title": "Kcat",
+        "description": "酶促反应的催化常数，反映酶的活性和效率"
+      },
+      "km": {
+        "title": "Km",
+        "description": "米氏常数，表示酶与底物的亲和力"
+      },
+      "tm": {
+        "title": "Tm",
+        "description": "蛋白质的热稳定性，表示蛋白质变性的温度"
+      },
+      "solubility": {
+        "title": "蛋白质溶解度",
+        "description": "蛋白质在溶液中的溶解能力"
+      }
+    },
+    "gene": {
+      "title": "基因功能",
+      "promoter": {
+        "title": "启动子强度",
+        "description": "基因表达的启动区域活性强度预测"
+      },
+      "rbs": {
+        "title": "RBS翻译起始率",
+        "description": "核糖体结合位点的翻译效率预测"
+      }
+    }
+  },
+  "features": {
+    "predict": "预测",
+    "train": "训练",
+    "kcat": {
+      "title": "Kcat预测",
+      "description": "使用我们训练好的深度学习模型，精准预测酶-底物对的催化常数",
+      "train": {
+        "title": "Kcat训练",
+        "description": "上传您的专有数据，训练定制化Kcat预测模型"
+      },
+      "titleSuffix": "催化常数",
+      "description": {
+        "full": "催化常数(k<sub>cat</sub>)是酶促反应动力学中的基本参数，定义了在底物饱和条件下(S≫K<sub>m</sub>)，每个酶活性中心单位时间内完成的反应周转数。"
+      },
+      "formula": {
+        "title": "米氏方程中的k<sub>cat</sub>",
+        "explanation": "其中，v为反应速率，V<sub>max</sub>为最大反应速率，[S]为底物浓度，K<sub>m</sub>为米氏常数，[E]<sub>0</sub>为酶的总浓度"
+      },
+      "keyPoints": {
+        "unit": "单位为s<sup>-1</sup>（每秒），范围通常从10<sup>-2</sup>到10<sup>7</sup>s<sup>-1</sup>不等",
+        "measure": "反映酶催化效率的基本量度，受活性位点结构和底物特性影响",
+        "specificity": "与K<sub>m</sub>共同决定酶的专一性常数(k<sub>cat</sub>/K<sub>m</sub>)，反映酶对底物的催化效率"
+      },
+      "scienceApplication": {
+        "title": "酶工程与代谢工程领域的关键参数",
+        "points": {
+          "industrial": "工业酶催化剂开发与优化",
+          "metabolic": "代谢工程中流量控制点分析",
+          "evolution": "设计定向进化策略以提高催化效率",
+          "biocatalysis": "生物催化与生物转化工艺优化"
+        }
+      },
+      "molecularInfo": {
+        "title": "催化常数的生物物理学意义",
+        "step": "在酶促反应的转换过程中，k<sub>cat</sub>对应于从酶-底物复合物(ES)到产物形成的速率限制步骤(rate-limiting step)。根据过渡态理论，k<sub>cat</sub>可表示为：",
+        "formula": "其中k<sub>B</sub>为玻尔兹曼常数，T为绝对温度，h为普朗克常数，ΔG<sup>‡</sup>为活化自由能，R为气体常数",
+        "factors": "催化常数受多种因素影响，包括酶的构象变化、底物结合位点的几何构型、活性位点残基的化学性质、以及酶-底物相互作用网络等。通过深度学习方法整合这些复杂信息，可以实现对k<sub>cat</sub>的准确预测。"
+      },
+      "modelPerformance": {
+        "accuracy": "我们的Kcat预测模型基于卷积神经网络和注意力机制，在多酶家族测试集上达到了0.85的R²值和0.42的RMSE值，尤其在水解酶和转移酶家族表现卓越。",
+        "trainingData": "建议提供至少100个酶-底物对的实验数据，包含酶的氨基酸序列和底物的SMILES格式分子结构，以及实验测定的k<sub>cat</sub>值。实验条件如pH、温度等也可作为辅助特征。",
+        "output": "预测Kcat值(s<sup>-1</sup>)、对数标度下的95%置信区间、模型置信度评分，以及关键残基贡献分析和酶-底物相互作用热图，帮助了解催化机制。"
+      }
+    },
+    "developing": {
+      "title": "功能开发中，敬请期待",
+      "description": "我们正在积极开发该功能，请您耐心等待，我们将尽快推出该服务。",
+      "return": "返回首页"
+    }
+  },
+  "predict": {
+    "common": {
+      "platformInfo": "平台说明：本平台使用经过训练和验证的机器学习模型，确保预测结果的科学性和准确性。系统不会使用随机模拟数据，保证预测的严谨性。",
+      "inputProtein": "输入蛋白质序列",
+      "useSample": "使用此样例",
+      "submit": "预测中...",
+      "instructions": "使用说明",
+      "resultInterp": "结果解读",
+      "error": "预测请求失败"
+    }
+  },
+  "training": {
+    "developing": {
+      "title": "该功能正在开发中",
+      "description": "我们目前正在升级和完善训练功能，暂时无法提供模型训练服务。请您耐心等待，我们将尽快恢复此功能。"
+    },
+    "form": {
+      "uploadDataset": "上传训练数据集",
+      "description": "训练任务描述 (可选)",
+      "advancedParams": "高级训练参数",
+      "epochs": "训练轮次(Epochs)",
+      "batchSize": "批量大小(Batch Size)",
+      "learningRate": "学习率(Learning Rate)",
+      "validationSplit": "验证集比例(Validation Split)",
+      "submit": "提交训练任务",
+      "requirements": "数据集要求",
+      "process": "训练过程"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "breadcrumb": {
+      "home": "首页"
+    },
+    "featureTemplate": {
+      "scientificApplications": "科学应用",
+      "modelPerformance": "模型性能",
+      "predictionAccuracy": "预测精度",
+      "trainingDataReq": "所需训练数据",
+      "outputResults": "输出结果"
+    }
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English"
+  }
+} 

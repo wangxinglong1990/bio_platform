@@ -1,0 +1,179 @@
+{
+  "app": {
+    "title": "Bioinformatics Platform",
+    "nav": {
+      "home": "Home",
+      "protein": "Protein Functions",
+      "gene": "Gene Functions",
+      "training": "My Training Tasks",
+      "about": "About",
+      "faq": "FAQ",
+      "api": "API"
+    }
+  },
+  "home": {
+    "banner": {
+      "description": "Utilizing advanced deep learning algorithms to provide accurate predictions and professional training services for protein and gene sequences, empowering scientific research and industrial applications",
+      "start": "Get Started",
+      "learnMore": "Learn More"
+    },
+    "advantages": {
+      "title": "Platform Advantages",
+      "description": "Perfect combination of advanced algorithms and rich data, providing you with accurate and reliable bioinformatics services",
+      "accuracy": {
+        "title": "High Precision Prediction",
+        "description": "Deep learning models trained on large-scale experimental data, providing industry-leading prediction accuracy"
+      },
+      "speed": {
+        "title": "Fast Response",
+        "description": "Optimized computing architecture, responding to your prediction requests in seconds, no lengthy waiting"
+      },
+      "customization": {
+        "title": "Custom Training",
+        "description": "Support users in training proprietary models with their own data, meeting the needs of specific research fields"
+      }
+    },
+    "combined": {
+      "title": "Prediction and Training Combined",
+      "description": "We've built a complete bioinformatics platform that not only provides high-precision prediction capabilities but also helps you train customized models.",
+      "points": {
+        "predict": "Directly use our trained models for prediction",
+        "upload": "Upload your own data to train proprietary models",
+        "manage": "Manage and track your training tasks",
+        "download": "Download trained models for local deployment"
+      },
+      "button": "View My Training Tasks"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Explore our comprehensive protein and gene functions to support your scientific research and industrial applications",
+      "button": "Start Now"
+    },
+    "protein": {
+      "title": "Protein Functions",
+      "kcat": {
+        "title": "Kcat",
+        "description": "Catalytic constant of enzymatic reactions, reflecting enzyme activity and efficiency"
+      },
+      "km": {
+        "title": "Km",
+        "description": "Michaelis constant, indicating enzyme-substrate affinity"
+      },
+      "tm": {
+        "title": "Tm",
+        "description": "Protein thermal stability, representing protein denaturation temperature"
+      },
+      "solubility": {
+        "title": "Protein Solubility",
+        "description": "Protein's ability to dissolve in solution"
+      }
+    },
+    "gene": {
+      "title": "Gene Functions",
+      "promoter": {
+        "title": "Promoter Strength",
+        "description": "Prediction of gene expression initiation region activity strength"
+      },
+      "rbs": {
+        "title": "RBS Translation Initiation Rate",
+        "description": "Prediction of ribosome binding site translation efficiency"
+      }
+    }
+  },
+  "features": {
+    "predict": "Predict",
+    "train": "Train",
+    "kcat": {
+      "title": "Kcat Prediction",
+      "description": "Use our trained deep learning model to accurately predict the catalytic constant of enzyme-substrate pairs",
+      "train": {
+        "title": "Kcat Training",
+        "description": "Upload your proprietary data to train customized Kcat prediction models"
+      },
+      "titleSuffix": "Catalytic Constant",
+      "description": {
+        "full": "The catalytic constant (k<sub>cat</sub>) is a fundamental parameter in enzyme reaction kinetics, defining the number of reaction turnovers completed per unit time by each enzyme active site under substrate saturation conditions (S≫K<sub>m</sub>)."
+      },
+      "formula": {
+        "title": "k<sub>cat</sub> in the Michaelis-Menten Equation",
+        "explanation": "Where v is the reaction rate, V<sub>max</sub> is the maximum reaction rate, [S] is the substrate concentration, K<sub>m</sub> is the Michaelis constant, and [E]<sub>0</sub> is the total enzyme concentration"
+      },
+      "keyPoints": {
+        "unit": "Units are s<sup>-1</sup> (per second), typically ranging from 10<sup>-2</sup> to 10<sup>7</sup>s<sup>-1</sup>",
+        "measure": "Reflects the basic measure of enzyme catalytic efficiency, influenced by active site structure and substrate characteristics",
+        "specificity": "Together with K<sub>m</sub>, determines the enzyme's specificity constant (k<sub>cat</sub>/K<sub>m</sub>), reflecting the enzyme's catalytic efficiency for the substrate"
+      },
+      "scienceApplication": {
+        "title": "Key Parameter in Enzyme Engineering and Metabolic Engineering",
+        "points": {
+          "industrial": "Development and optimization of industrial enzyme catalysts",
+          "metabolic": "Flux control point analysis in metabolic engineering",
+          "evolution": "Designing directed evolution strategies to improve catalytic efficiency",
+          "biocatalysis": "Biocatalysis and biotransformation process optimization"
+        }
+      },
+      "molecularInfo": {
+        "title": "Biophysical Significance of Catalytic Constant",
+        "step": "In the conversion process of enzymatic reactions, k<sub>cat</sub> corresponds to the rate-limiting step from the enzyme-substrate complex (ES) to product formation. According to transition state theory, k<sub>cat</sub> can be expressed as:",
+        "formula": "Where k<sub>B</sub> is the Boltzmann constant, T is the absolute temperature, h is the Planck constant, ΔG<sup>‡</sup> is the activation free energy, and R is the gas constant",
+        "factors": "The catalytic constant is influenced by multiple factors, including enzyme conformational changes, substrate binding site geometry, chemical properties of active site residues, and enzyme-substrate interaction networks. By integrating these complex pieces of information through deep learning methods, accurate prediction of k<sub>cat</sub> can be achieved."
+      },
+      "modelPerformance": {
+        "accuracy": "Our Kcat prediction model, based on convolutional neural networks and attention mechanisms, achieves an R² value of 0.85 and an RMSE value of 0.42 on multi-enzyme family test sets, with excellent performance especially in hydrolase and transferase families.",
+        "trainingData": "We recommend providing experimental data for at least 100 enzyme-substrate pairs, including the enzyme's amino acid sequence, the substrate's molecular structure in SMILES format, and experimentally determined k<sub>cat</sub> values. Experimental conditions such as pH and temperature can also serve as auxiliary features.",
+        "output": "The model predicts Kcat values (s<sup>-1</sup>), 95% confidence intervals on a logarithmic scale, model confidence scores, as well as key residue contribution analysis and enzyme-substrate interaction heat maps to help understand the catalytic mechanism."
+      }
+    },
+    "developing": {
+      "title": "Function Under Development, Stay Tuned",
+      "description": "We are actively developing this feature. Please be patient, we will launch this service as soon as possible.",
+      "return": "Return to Homepage"
+    }
+  },
+  "predict": {
+    "common": {
+      "platformInfo": "Platform Note: This platform uses trained and validated machine learning models to ensure scientific accuracy of prediction results. The system does not use random simulation data, guaranteeing the rigor of predictions.",
+      "inputProtein": "Input Protein Sequence",
+      "useSample": "Use This Example",
+      "submit": "Predicting...",
+      "instructions": "Instructions",
+      "resultInterp": "Result Interpretation",
+      "error": "Prediction Request Failed"
+    }
+  },
+  "training": {
+    "developing": {
+      "title": "This Feature is Under Development",
+      "description": "We are currently upgrading and improving the training functionality and temporarily cannot provide model training services. Please be patient, we will restore this feature as soon as possible."
+    },
+    "form": {
+      "uploadDataset": "Upload Training Dataset",
+      "description": "Training Task Description (Optional)",
+      "advancedParams": "Advanced Training Parameters",
+      "epochs": "Training Epochs",
+      "batchSize": "Batch Size",
+      "learningRate": "Learning Rate",
+      "validationSplit": "Validation Split",
+      "submit": "Submit Training Task",
+      "requirements": "Dataset Requirements",
+      "process": "Training Process"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "breadcrumb": {
+      "home": "Home"
+    },
+    "featureTemplate": {
+      "scientificApplications": "Scientific Applications",
+      "modelPerformance": "Model Performance",
+      "predictionAccuracy": "Prediction Accuracy",
+      "trainingDataReq": "Required Training Data",
+      "outputResults": "Output Results"
+    }
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English"
+  }
+} 
