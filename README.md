@@ -59,7 +59,7 @@ npm run deploy
 
 ## 关于GitHub Pages托管
 
-本项目已部署到GitHub Pages：https://zx1998-12.github.io/protein-predictor/
+本项目已部署到GitHub Pages：https://wangxinglong1990.github.io/bio_platform
 
 ### 托管特性
 
@@ -73,6 +73,27 @@ npm run deploy
 - **API后端需独立部署**: GitHub Pages只能托管静态内容，API后端需部署到支持后端服务的平台
 - **更新方式**: 要更新网站内容，需在本地修改代码后运行`npm run deploy`命令
 - **域名设置**: 可在GitHub仓库设置中配置自定义域名
+
+## 常见问题解决
+
+### 如果遇到 'react-scripts' 不是内部或外部命令的错误
+
+1. 尝试重新安装依赖：
+```bash
+npm install
+```
+
+2. 如果问题仍然存在，可以单独安装react-scripts：
+```bash
+npm install react-scripts
+```
+
+3. 或者完全重置node_modules：
+```bash
+rmdir /s /q node_modules
+del package-lock.json
+npm install
+```
 
 ## 技术栈
 
